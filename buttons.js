@@ -7,7 +7,8 @@ function helloAlert () {
 }
 
 function helloBrowser () {
-
+  var p = document.getElementById("java")
+  p.innerHTML="Hello, World!";
 }
 
 function helloStranger () {
